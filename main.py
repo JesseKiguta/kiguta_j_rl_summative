@@ -56,7 +56,7 @@ def run_episode(env, renderer, model, max_steps=1000, speed=0.1):
 if __name__ == "__main__":
     # Configuration
     MODEL_PATH = "models/pg/ActorCritic/ActorCritic_ep_500.pth"  # Your saved model
-    RENDER_SPEED = 0.2  # Visualization speed (seconds/frame)
+    RENDER_SPEED = 0.5  # Visualization speed (seconds/frame)
     EPISODES = 3  # Number of episodes to run
     
     # Initialize
